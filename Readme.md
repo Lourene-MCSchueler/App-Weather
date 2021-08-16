@@ -13,4 +13,4 @@ Foi utilizada a API [OpenWeatherMap](https://openweathermap.org/).
 ![Alt text](https://github.com/Lourene-MCSchueler/appWeather/blob/master/screenshot/appWeather.png)
 
 # PROJETO
-[Clique neste link](xxxxx)
+[Clique neste link](https://weather-app-lmcs.netlify.app/)

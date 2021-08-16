@@ -100,6 +100,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 33%;
  
 }
 
@@ -108,7 +109,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 33%;
  
+}
+
+.boxB1 .weather {
+  margin-left: 10px;
 }
 
 .boxB3 div {
@@ -123,17 +129,19 @@ img {
 @media(max-width: 350px ) {
 
   .weather {
-    padding-left: 15px;
     font-size: 13px;
     
   }
   img {
     width: 70%;
-    padding-left: 10px;
   }
+  
   .boxB3 {
     flex-wrap: wrap;
     font-size: 12px;
     padding-right: 10px;
+  }
+  .boxB1 {
+    flex-wrap: wrap;
   }
 }
