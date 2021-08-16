@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>AppWeather</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="msg"></div>
+      <div>
+        <label for="search"></label>
+        <input class="form-control" type="text" name="search" id="search" placeholder="digite a cidade">
+        <button class="btn" type="submit">Buscar</button>
+      </div>
+    </header>
+
+
+    <section class="top">
+      <div class="boxT1">
+        <div class="city"></div>
+        <div class="digital"></div>
+        <div class="date"></div>
+      </div>
+    </section>
+
+    <section class="middle">
+      <div class="boxM1">
+        <div class="temp">
+          <div class="temp-number"></div>
+          <span class="temp-unit"></span>
+        </div>
+        <div class="low-high"></div>
+      </div>
+    </section>
+
+    <section class="bottom">
+      <div class="boxB1">
+        <div class="weather"></div>
+      </div>
+      <div class="boxB2">
+        <div class="icon">
+          <img src="./icons/unknown.png">
+        </div>
+      </div>
+      </div>
+      <div class="boxB3">
+        <div class="humidity"></div>
+        <div class="wind"></div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

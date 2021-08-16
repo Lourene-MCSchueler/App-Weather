@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: 'Signika Negative', sans-serif;
+  color: white;
+  background: linear-gradient(to right,#BBC0F7, #A0CBF5, #4EE6F3);
+  
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  justify-content: space-around;
+  border-bottom: 1px solid #A0CBF5;
+}
+
+input { height: 25px }
+
+button {
+  height: 25px;
+  width: 55px;
+  text-align: center;
+  background: cinza;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+main {
+   background: linear-gradient(to right,#3B447B, #093660, #003F46);
+   border-radius: 20px 0 20px 0;
+   margin-top: 50px;
+}
+
+.top {
+  display: flex;
+  height: 100px;
+  
+}
+
+.middle {
+  display: flex;
+  height: 150px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  height: 150px; 
+}
+
+.boxT1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%
+}
+
+.boxT1 .city {
+  font-size: 25px;
+}
+
+.boxT1 .date {
+  font-size: 14px;
+}
+.boxM1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 80px;
+  font-size: 60px;
+  margin-bottom: 10px;
+  background: black;
+  cursor: pointer;
+}
+
+.boxB1,
+.boxB2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.boxB3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.boxB3 div {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 85%;
+  margin-left: 25px;
+}
+
+@media(max-width: 350px ) {
+
+  .weather {
+    padding-left: 15px;
+    font-size: 13px;
+    
+  }
+  img {
+    width: 70%;
+    padding-left: 10px;
+  }
+  .boxB3 {
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding-right: 10px;
+  }
+}
