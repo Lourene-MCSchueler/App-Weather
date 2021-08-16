@@ -1,7 +1,7 @@
 # AppWeather 
 
 App para consulta das condições climáticas.
-Foi utilizada a API [Clique neste link](https://openweathermap.org/).
+Foi utilizada a API [OpenWeatherMap](https://openweathermap.org/).
 
 
 ## Tecnologias
@@ -10,7 +10,7 @@ Foi utilizada a API [Clique neste link](https://openweathermap.org/).
  - JS
 
 # SCREENSHOT
-![Alt text](xxxx)
+![Alt text](https://github.com/Lourene-MCSchueler/appWeather/blob/master/screenshot/appWeather.png)
 
 # PROJETO
 [Clique neste link](xxxxx)
