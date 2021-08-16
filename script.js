@@ -37,7 +37,7 @@ function updateClock() {
   if (hour >= 6 && hour < 12) {
     msg.innerHTML = "Bom dia!"
   }
-  else if (hour >= 12 && hora < 18) {
+  else if (hour >= 12 && hour < 18) {
     msg.innerHTML = "Boa tarde!"
   }
   else {
