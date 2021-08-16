@@ -121,6 +121,12 @@ main {
   margin-bottom: 10px;
 }
 
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+
 img {
   width: 85%;
   margin-left: 25px;
@@ -132,8 +138,10 @@ img {
     font-size: 13px;
     
   }
-  img {
-    width: 70%;
+
+   img {
+    width: 80%
+   
   }
   
   .boxB3 {
